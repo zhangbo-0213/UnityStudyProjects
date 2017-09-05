@@ -1,4 +1,7 @@
-﻿Shader "Custom/Chapter7_SingleTexture" {
+﻿// Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+Shader "Custom/Chapter7_SingleTexture" {
 		Properties{
 			_Color("Color",color) = (1,1,1,1)
 			_MainTex("Main Tex", 2D) = "white"{}
@@ -41,9 +44,9 @@
 
 				v2f vert(a2v v) {
 					v2f o;
-					o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+					o.pos = UnityObjectToClipPos(v.vertex);
 					o.worldNormal = UnityObjectToWorldNormal(v.normal);
-					o.worldPos = mul(_Object2World, v.vertex).xyz;
+					o.worldPos = mul(unity_ObjectToWorld, v.vertex).xyz;
 					o.uv = v.texcoord.xy*_MainTex_ST.xy + _MainTex_ST.zw;
 					//也可以使用内置函数  o.uv=TRANSFORM_TEX(v.texcoord,_MainTex); 计算过程一样
 
@@ -53,7 +56,7 @@
 					fixed3 worldNormal = normalize(i.worldNormal);
 					fixed3 worldLightDir = normalize(UnityWorldSpaceLightDir(i.worldPos));
 
-					//使用tex2D做纹理采样
+					//使用tex2D做纹理采样，将采样结果和颜色属性_Color相乘作为反射率
 					fixed3 albedo = tex2D(_MainTex,i.uv).rgb*_Color.rgb;
 
 					fixed3 ambient = UNITY_LIGHTMODEL_AMBIENT.xyz*albedo;
@@ -62,7 +65,7 @@
 
 					fixed3 viewDir = normalize(UnityWorldSpaceViewDir(i.worldPos));
 					fixed3 halfDir = normalize(worldLightDir+viewDir);
-					fixed3 specular = _LightColor0.rgb*albedo*pow(saturate(dot(halfDir,worldNormal)), _Gloss);
+					fixed3 specular = _LightColor0.rgb*_Specular.rgb*pow(saturate(dot(halfDir,worldNormal)), _Gloss);
 
 					return fixed4(ambient+diffuse+specular,1.0);
 				}
