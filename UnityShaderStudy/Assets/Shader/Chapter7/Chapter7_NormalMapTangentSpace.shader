@@ -53,8 +53,8 @@ Shader "Custom/Chapter7_NormalMapTangentSpace" {
 					//(按行填充，得到的矩阵实际上是模型到切线的逆矩阵的转置矩阵，也就是模型到切线的转换矩阵(正交矩阵))
 					//也可以使用内建宏TANGENT_SPACE_ROTATION得到变换矩阵 
 
-					o.lightDir = mul(rotation, ObjSpaceLightDir(v.vertex)).xyz;
-					o.viewDir = mul(rotation,ObjSpaceViewDir(v.vertex)).xyz;
+					o.lightDir = mul(rotation, ObjSpaceLightDir(v.vertex).xyz);
+					o.viewDir = mul(rotation,ObjSpaceViewDir(v.vertex).xyz);
 
 					return o;
 				} 
