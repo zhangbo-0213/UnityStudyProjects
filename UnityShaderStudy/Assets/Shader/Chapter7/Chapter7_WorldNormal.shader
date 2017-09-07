@@ -1,5 +1,7 @@
 ﻿// Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
 
+// Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
+
 Shader "Custom/Chapter7_WorldNormal" {
 	Properties{
 		_Color("Color",Color)=(1,1,1,1)
@@ -51,7 +53,7 @@ Shader "Custom/Chapter7_WorldNormal" {
 					o.uv.xy = v.texcoord.xy*_MainTex_ST.xy + _MainTex_ST.zw;
 					o.uv.zw = v.texcoord.xy*_BumpTex_ST.xy + _BumpTex_ST.zw;  
 
-					float3 worldPos = mul(_Object2World, v.vertex).xyz;
+					float3 worldPos = mul(unity_ObjectToWorld, v.vertex).xyz;
 					fixed3 worldNormal = UnityObjectToWorldNormal(v.normal);
 					fixed3 worldTangent = UnityObjectToWorldDir(v.tangent.xyz);
 					fixed3 worldBinormal = cross(worldNormal, worldTangent)*v.tangent.w;
