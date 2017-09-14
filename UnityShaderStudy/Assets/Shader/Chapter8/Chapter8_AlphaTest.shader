@@ -9,6 +9,7 @@ Shader "Custom/Chapter8_AlphaTest" {
 	SubShader{
 		Tags{"Queue"="AlphaTest" "IgnoreProjector"="True" "RenderType"="TransparentCutout"}
 		//通常，使用透明度测试的Shader都应该在SubShader中设置这三个标签
+		//"RenderType"="TransparentCutout"指明该shader为使用了透明度测试的shader
 		Pass{
 			Tags{"LightMode"="ForwardBase"}
 			CGPROGRAM
