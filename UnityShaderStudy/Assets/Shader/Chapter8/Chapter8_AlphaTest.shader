@@ -52,7 +52,7 @@ Shader "Custom/Chapter8_AlphaTest" {
 				fixed4 texColor=tex2D(_MainTex,i.uv);
 
 				clip(texColor.a-_Cutoff);
-				//clip函数做透明度的比较后进行裁剪操作
+				//clip函数做透明度的比较后进行裁剪剔除操作
 				fixed3 albedo=texColor.rgb*_Color;
 				fixed3 ambient=UNITY_LIGHTMODEL_AMBIENT.xyz*albedo;
 				fixed3 diffuse=_LightColor0.rgb*albedo*max(0,dot(worldNormal,worldLightDir));
