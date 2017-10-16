@@ -66,6 +66,7 @@
      <None Include="Assets\Shader\Chapter6\Chapter6_DiffuseVertexLevel.shader" />
      <None Include="Assets\Shader\Chapter8\Chapter8_AlphaBlendZwriteBothSide.shader" />
      <None Include="Assets\Shader\Chapter9\Chapter9_ForwardRendering.shader" />
+     <None Include="Assets\Shader\Chapter10\Chapter10_Mirror.shader" />
      <None Include="Assets\Shader\Chapter9\Chapter9_Shadow2.shader" />
      <None Include="Assets\Shader\Chapter6\Chapter6_SpecularVertexLevel.shader" />
      <None Include="Assets\Shader\Chapter9\Chapter9_Shadow.shader" />
