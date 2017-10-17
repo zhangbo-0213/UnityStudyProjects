@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityShaderStudy", "Assembly-CSharp.csproj", "{F324476A-F958-4C69-94A2-F3D9517E0959}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityShaderStudy", "Assembly-CSharp-Editor.csproj", "{F96743B4-0662-A7D7-14C5-46A28732D175}"
 EndProject
 Global
@@ -9,6 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F324476A-F958-4C69-94A2-F3D9517E0959}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F324476A-F958-4C69-94A2-F3D9517E0959}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F324476A-F958-4C69-94A2-F3D9517E0959}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F324476A-F958-4C69-94A2-F3D9517E0959}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F96743B4-0662-A7D7-14C5-46A28732D175}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F96743B4-0662-A7D7-14C5-46A28732D175}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F96743B4-0662-A7D7-14C5-46A28732D175}.Release|Any CPU.ActiveCfg = Release|Any CPU

@@ -67,6 +67,7 @@
      <None Include="Assets\Shader\Chapter8\Chapter8_AlphaBlendZwriteBothSide.shader" />
      <None Include="Assets\Shader\Chapter9\Chapter9_ForwardRendering.shader" />
      <None Include="Assets\Shader\Chapter10\Chapter10_Mirror.shader" />
+     <None Include="Assets\Shader\Chapter10\Chapter10_GlassRefraction.shader" />
      <None Include="Assets\Shader\Chapter9\Chapter9_Shadow2.shader" />
      <None Include="Assets\Shader\Chapter6\Chapter6_SpecularVertexLevel.shader" />
      <None Include="Assets\Shader\Chapter9\Chapter9_Shadow.shader" />
@@ -138,6 +139,10 @@
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>E:/Unity2017.1.0/Install/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{F324476A-F958-4C69-94A2-F3D9517E0959}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
