@@ -20,7 +20,7 @@ public class GaussianBlur : PostEffectsBase
     public int iterations = 3;
     [Range(0.2f, 3.0f)] //模糊计算的范围，越大越模糊    
     public float blurSpread = 0.6f;
-    [Range(1, 8)] //降采样数值，越大，计算的像素点越少，节约性能，但是降采样的之太大会出现像素化风格
+    [Range(1, 8)] //降采样数值，越大，计算的像素点越少，节约性能，但是降采样的值太大会出现像素化风格
     public int downSample = 2;
 
     void OnRenderImage(RenderTexture src,RenderTexture dest)
@@ -70,7 +70,7 @@ public class GaussianBlur : PostEffectsBase
             RenderTexture buffer0 = RenderTexture.GetTemporary(rtW, rtH, 0);
             buffer0.filterMode = FilterMode.Bilinear;
 
-            Graphics.Blit(src, buffer0);
+            Graphics.Blit(src, buffer0);//直接对原屏幕图像进行降采样处理
             for (int i = 0; i < iterations; i++)
             {
                 material.SetFloat("_BlurSize", 1.0f + i*blurSpread);

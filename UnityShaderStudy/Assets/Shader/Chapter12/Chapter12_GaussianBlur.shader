@@ -1,6 +1,6 @@
 ﻿Shader "Custom/Chapter12_GaussianBlur" {
 	Properties {
-		_MainTex("MaintTex",2D)="white"{}
+		_MainTex("MainTex",2D)="white"{}
 		_BlurSize("BlurSize",Float)=1.0
 	}
 	SubShader {

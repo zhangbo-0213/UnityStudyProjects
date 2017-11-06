@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scene/Scene12_4.unity
+- path: Assets/Scene/Scene_More_Shaomiao.unity
   isLoaded: 1
   isActive: 1
