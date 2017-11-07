@@ -59,6 +59,7 @@
      <None Include="Assets\Shader\Chapter12\Chapter12_GaussianBlur.shader" />
      <None Include="Assets\Shader\Chapter12\Chapter12_MotionBlur.shader" />
      <None Include="Assets\Shader\Chapter8\Chapter8_AlphaTest.shader" />
+     <None Include="Assets\Shader\Chapter13\Chapter13_MotionBlurWithDepthTexture.shader" />
      <None Include="Assets\Shader\Chapter10\Chapter10_Refraction.shader" />
      <None Include="Assets\Shader\Chapter8\Chapter8_AlphaBlend.shader" />
      <None Include="Assets\Shader\ChapterMore\GeometryEdge.shader" />
