@@ -58,6 +58,7 @@
      <Compile Include="Assets\Scripts\Chapter12\MotionBlur.cs" />
      <Compile Include="Assets\Scripts\Chapter12\PostEffectsBase.cs" />
      <Compile Include="Assets\Scripts\Chapter12\Translating.cs" />
+     <Compile Include="Assets\Scripts\Chapter13\Chapter13_FogWithDepthTexture.cs" />
      <Compile Include="Assets\Scripts\Chapter13\Chapter13_MotionBlurWithDepthTexture.cs" />
      <Compile Include="Assets\Scripts\ProceduralTextureGeneration.cs" />
      <Compile Include="Assets\Scripts\SetPropertyAttribute.cs" />
@@ -70,6 +71,7 @@
      <None Include="Assets\Shader\Chapter12\Chapter12_MotionBlur.shader" />
      <None Include="Assets\Shader\Chapter8\Chapter8_AlphaTest.shader" />
      <None Include="Assets\Shader\Chapter13\Chapter13_MotionBlurWithDepthTexture.shader" />
+     <None Include="Assets\Shader\Chapter13\Chapter13_FogWithDepthTexture.shader" />
      <None Include="Assets\Shader\Chapter10\Chapter10_Refraction.shader" />
      <None Include="Assets\Shader\Chapter8\Chapter8_AlphaBlend.shader" />
      <None Include="Assets\Shader\ChapterMore\GeometryEdge.shader" />
