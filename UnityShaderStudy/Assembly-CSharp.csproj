@@ -75,6 +75,7 @@
      <None Include="Assets\Shader\Chapter13\Chapter13_MotionBlurWithDepthTexture.shader" />
      <None Include="Assets\Shader\Chapter13\Chapter13_FogWithDepthTexture.shader" />
      <None Include="Assets\Shader\Chapter10\Chapter10_Refraction.shader" />
+     <None Include="Assets\Shader\Chapter14\Chapter14_ToonShading.shader" />
      <None Include="Assets\Shader\Chapter8\Chapter8_AlphaBlend.shader" />
      <None Include="Assets\Shader\ChapterMore\GeometryEdge.shader" />
      <None Include="Assets\Shader\Chapter11\Chapter11_ImageSequenceAnimation.shader" />
