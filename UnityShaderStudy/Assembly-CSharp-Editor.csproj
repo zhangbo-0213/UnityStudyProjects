@@ -55,6 +55,7 @@
      <None Include="Assets\Shader\ChapterMore\GeometryEdge_Author.shader" />
      <None Include="Assets\Shader\ChapterMore\Scan.shader" />
      <None Include="Assets\Shader\Chapter6\Chapter6_DiffusePixelLevel.shader" />
+     <None Include="Assets\Shader\Chapter14\Chapter14_Hatching.shader" />
      <None Include="Assets\Shader\Chapter10\Chapter10_Fresnel.shader" />
      <None Include="Assets\Shader\Chapter12\Chapter12_GaussianBlur.shader" />
      <None Include="Assets\Shader\Chapter12\Chapter12_MotionBlur.shader" />
