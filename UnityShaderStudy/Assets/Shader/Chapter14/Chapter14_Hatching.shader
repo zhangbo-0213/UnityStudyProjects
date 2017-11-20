@@ -120,7 +120,7 @@
 					//得到6张素描纹理采样结果，并乘以对应的权重
 					fixed4 whiteColor=fixed4(1,1,1,1)*(1.0-i.hatchWeight0.x-i.hatchWeight0.y-i.hatchWeight0.z-i.hatchWeight1.x-i.hatchWeight1.y-i.hatchWeight1.z);
 					fixed4 hatchColor=hatchTex0+hatchTex1+hatchTex2+hatchTex3+hatchTex4+hatchTex5+whiteColor;
-					//计算纯白的占比程度，素描风格中会有留白，并且高光部分也是白色
+					//计算纯白的占比程度，素描风格中会有留白，使高光部分是白色
 					UNITY_LIGHT_ATTENUATION(atten,i,i.worldPos);
 
 					return fixed4(hatchColor.rgb*_Color.rgb*atten,1.0);
