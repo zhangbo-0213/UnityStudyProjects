@@ -103,6 +103,7 @@
      <None Include="Assets\Shader\Chapter12\Chapter12_BrightnessSaturateAndContrast.shader" />
      <None Include="Assets\Shader\Chapter7\Chapter7_MaskTexture.shader" />
      <None Include="Assets\Shader\Chapter5\Chapter5_SimpleShader.shader" />
+     <None Include="Assets\Shader\ChapterMore\Disturbance.shader" />
      <None Include="Assets\Shader\Chapter11\Chapter11_ScrollingBackground.shader" />
      <None Include="Assets\Shader\Chapter6\Chapter6_SpecularBlinnPixelLevel.shader" />
      <None Include="Assets\Shader\Chapter7\Chapter7_WorldNormal_Book.shader" />
