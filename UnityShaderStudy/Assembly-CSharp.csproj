@@ -80,6 +80,7 @@
      <None Include="Assets\Shader\Chapter14\Chapter14_ToonShading.shader" />
      <None Include="Assets\Shader\Chapter8\Chapter8_AlphaBlend.shader" />
      <None Include="Assets\Shader\ChapterMore\GeometryEdge.shader" />
+     <None Include="Assets\Shader\Chapter15\Chapter15_WaterWave.shader" />
      <None Include="Assets\Shader\Chapter11\Chapter11_ImageSequenceAnimation.shader" />
      <None Include="Assets\Shader\Chapter6\Chapter6_DiffuseHalfLambert.shader" />
      <None Include="Assets\Shader\Chapter10\Chapter10_Reflection.shader" />
