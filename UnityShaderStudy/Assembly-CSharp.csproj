@@ -61,6 +61,7 @@
      <Compile Include="Assets\Scripts\Chapter13\Chapter13_EdgeDetectNormalsAndDepth.cs" />
      <Compile Include="Assets\Scripts\Chapter13\Chapter13_FogWithDepthTexture.cs" />
      <Compile Include="Assets\Scripts\Chapter13\Chapter13_MotionBlurWithDepthTexture.cs" />
+     <Compile Include="Assets\Scripts\Chapter15\Chapter15_FogWithNoise.cs" />
      <Compile Include="Assets\Scripts\ProceduralTextureGeneration.cs" />
      <Compile Include="Assets\Scripts\SetPropertyAttribute.cs" />
      <Compile Include="Assets\Scripts\SetPropertyExample.cs" />
@@ -99,6 +100,7 @@
      <None Include="Assets\Shader\Chapter12\Chapter12_EdgeDetetion.shader" />
      <None Include="Assets\Shader\Chapter7\Chapter7_RampTexture.shader" />
      <None Include="Assets\Shader\Chapter11\Chapter11_Water.shader" />
+     <None Include="Assets\Shader\Chapter15\Chapter15_FogWithNoise.shader" />
      <None Include="Assets\Shader\Chapter11\Chapter11_Billboarding.shader" />
      <None Include="Assets\Shader\Chapter7\Chapter7_SingleTexture.shader" />
      <None Include="Assets\Shader\Chapter12\Chapter12_BrightnessSaturateAndContrast.shader" />
