@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scene/Scene_15_3.unity
+- path: Assets/Scene/Scene_More_VertexShadow.unity
   isLoaded: 1
   isActive: 1

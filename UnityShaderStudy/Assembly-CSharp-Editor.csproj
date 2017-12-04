@@ -81,6 +81,7 @@
      <None Include="Assets\Shader\Chapter9\Chapter9_Shadow2.shader" />
      <None Include="Assets\Shader\Chapter6\Chapter6_SpecularVertexLevel.shader" />
      <None Include="Assets\Shader\ChapterMore\Scan_YSJPM.shader" />
+     <None Include="Assets\Shader\ChapterMore\VertShadow.shader" />
      <None Include="Assets\Shader\Chapter9\Chapter9_Shadow.shader" />
      <None Include="Assets\Shader\Chapter12\Chapter12_Bloom.shader" />
      <None Include="Assets\Shader\Chapter8\Chapter8_AlphaBlendZwrite.shader" />

@@ -4,7 +4,7 @@ Shader "Custom/Chapter7_NormalMapTangentSpace" {
 		_Color("Color",Color)=(1,1,1,1)
 		_MainTex("MainTex",2D) ="white" {}
 		_BumpTex("Noraml Tex",2D) = "bump"{} //bump为Unity自带的法线纹理，当没有提供任何法线时，"bump"就对应模型自身的法线信息
-		_BumpScale("BumpScal",Float) = 1.0  //BumpScale代表凹凸程度，值为0时，表示该法线纹理不会对光照产生任何影响
+		_BumpScale("BumpScale",Float) = 1.0  //BumpScale代表凹凸程度，值为0时，表示该法线纹理不会对光照产生任何影响
 		_Specular("Specular",Color) = (1,1,1,1)
 		_Gloss("Gloss",Range(8.0,256)) = 20
 	}
