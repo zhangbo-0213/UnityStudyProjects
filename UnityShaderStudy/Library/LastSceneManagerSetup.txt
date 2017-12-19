@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scene/Scene_18_2.unity
+- path: Assets/Scene/Scene_More_BlackHole.unity
   isLoaded: 1
   isActive: 1

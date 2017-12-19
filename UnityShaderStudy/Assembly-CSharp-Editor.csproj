@@ -72,6 +72,7 @@
      <None Include="Assets\Shader\Chapter15\Chapter15_WaterWave.shader" />
      <None Include="Assets\Shader\Chapter11\Chapter11_ImageSequenceAnimation.shader" />
      <None Include="Assets\Shader\Chapter6\Chapter6_DiffuseHalfLambert.shader" />
+     <None Include="Assets\Shader\ChapterMore\BlackHole.shader" />
      <None Include="Assets\Shader\Chapter10\Chapter10_Reflection.shader" />
      <None Include="Assets\Shader\Chapter9\Chapter9_AlphaTestWithShadow.shader" />
      <None Include="Assets\Shader\Chapter6\Chapter6_DiffuseVertexLevel.shader" />
